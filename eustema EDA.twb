@@ -49,110 +49,112 @@
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1t0x9mm0hvcj6f132mqy415l9gvd' name='final_train_od_dummies.csv' table='[final_train_od_dummies#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='it_IT'>
-            <column datatype='integer' name='Unnamed: 0' ordinal='0' />
-            <column datatype='string' name='Case identifier' ordinal='1' />
-            <column datatype='date' name='Date' ordinal='2' />
-            <column datatype='string' name='Judge Identifier' ordinal='3' />
-            <column datatype='string' name='Section' ordinal='4' />
-            <column datatype='string' name='City of the judge’s office' ordinal='5' />
-            <column datatype='integer' name='Tax Related' ordinal='6' />
-            <column datatype='integer' name='Number of Lawyers' ordinal='7' />
-            <column datatype='integer' name='Number of Legal Parties' ordinal='8' />
-            <column datatype='integer' name='Number of Persons' ordinal='9' />
-            <column datatype='string' name='Outcome' ordinal='10' />
-            <column datatype='integer' name='Duration' ordinal='11' />
-            <column datatype='string' name='Value formatted' ordinal='12' />
-            <column datatype='string' name='Unified Contribution formatted' ordinal='13' />
-            <column datatype='integer' name='Milano' ordinal='14' />
-            <column datatype='integer' name='Roma' ordinal='15' />
-            <column datatype='integer' name='Napoli' ordinal='16' />
-            <column datatype='integer' name='Cagliari' ordinal='17' />
-            <column datatype='integer' name='Perugia' ordinal='18' />
-            <column datatype='integer' name='Genova' ordinal='19' />
-            <column datatype='integer' name='Bologna' ordinal='20' />
-            <column datatype='integer' name='Bari' ordinal='21' />
-            <column datatype='integer' name='Palermo' ordinal='22' />
-            <column datatype='integer' name='Torino' ordinal='23' />
-            <column datatype='integer' name='Potenza' ordinal='24' />
-            <column datatype='integer' name='Campobasso' ordinal='25' />
-            <column datatype='integer' name='Firenze' ordinal='26' />
-            <column datatype='integer' name='Cosenza' ordinal='27' />
-            <column datatype='integer' name='Venezia' ordinal='28' />
-            <column datatype='integer' name='Ancona' ordinal='29' />
-            <column datatype='integer' name='L&apos;Aquila' ordinal='30' />
-            <column datatype='integer' name='Trieste' ordinal='31' />
-            <column datatype='integer' name='Aosta' ordinal='32' />
-            <column datatype='integer' name='Trento' ordinal='33' />
-            <column datatype='integer' name='OSA-180002' ordinal='34' />
-            <column datatype='integer' name='OR-145999' ordinal='35' />
-            <column datatype='integer' name='OR-145009' ordinal='36' />
-            <column datatype='integer' name='OR-140999' ordinal='37' />
-            <column datatype='integer' name='OR-139999' ordinal='38' />
-            <column datatype='integer' name='OR-101003' ordinal='39' />
-            <column datatype='integer' name='OSA-180099' ordinal='40' />
-            <column datatype='integer' name='OR-130099' ordinal='41' />
-            <column datatype='integer' name='OSA-180001' ordinal='42' />
-            <column datatype='integer' name='OR-130121' ordinal='43' />
-            <column datatype='integer' name='OR-130131' ordinal='44' />
-            <column datatype='integer' name='OSA-140999' ordinal='45' />
-            <column datatype='integer' name='OR-101002' ordinal='46' />
-            <column datatype='integer' name='OR-130111' ordinal='47' />
-            <column datatype='integer' name='OR-180002' ordinal='48' />
-            <column datatype='integer' name='OSA-145999' ordinal='49' />
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+            <column datatype='string' name='Case identifier' ordinal='2' />
+            <column datatype='date' name='Date' ordinal='3' />
+            <column datatype='string' name='Judge Identifier' ordinal='4' />
+            <column datatype='string' name='Section' ordinal='5' />
+            <column datatype='string' name='City of the judge’s office' ordinal='6' />
+            <column datatype='integer' name='Tax Related' ordinal='7' />
+            <column datatype='integer' name='Number of Lawyers' ordinal='8' />
+            <column datatype='integer' name='Number of Legal Parties' ordinal='9' />
+            <column datatype='integer' name='Number of Persons' ordinal='10' />
+            <column datatype='string' name='Outcome' ordinal='11' />
+            <column datatype='integer' name='Duration' ordinal='12' />
+            <column datatype='string' name='Value formatted' ordinal='13' />
+            <column datatype='string' name='Unified Contribution formatted' ordinal='14' />
+            <column datatype='integer' name='Milano' ordinal='15' />
+            <column datatype='integer' name='Roma' ordinal='16' />
+            <column datatype='integer' name='Napoli' ordinal='17' />
+            <column datatype='integer' name='Cagliari' ordinal='18' />
+            <column datatype='integer' name='Perugia' ordinal='19' />
+            <column datatype='integer' name='Genova' ordinal='20' />
+            <column datatype='integer' name='Bologna' ordinal='21' />
+            <column datatype='integer' name='Bari' ordinal='22' />
+            <column datatype='integer' name='Palermo' ordinal='23' />
+            <column datatype='integer' name='Torino' ordinal='24' />
+            <column datatype='integer' name='Potenza' ordinal='25' />
+            <column datatype='integer' name='Campobasso' ordinal='26' />
+            <column datatype='integer' name='Firenze' ordinal='27' />
+            <column datatype='integer' name='Cosenza' ordinal='28' />
+            <column datatype='integer' name='Venezia' ordinal='29' />
+            <column datatype='integer' name='Ancona' ordinal='30' />
+            <column datatype='integer' name='L&apos;Aquila' ordinal='31' />
+            <column datatype='integer' name='Trieste' ordinal='32' />
+            <column datatype='integer' name='Aosta' ordinal='33' />
+            <column datatype='integer' name='Trento' ordinal='34' />
+            <column datatype='integer' name='OSA-180002' ordinal='35' />
+            <column datatype='integer' name='OR-145999' ordinal='36' />
+            <column datatype='integer' name='OR-145009' ordinal='37' />
+            <column datatype='integer' name='OR-140999' ordinal='38' />
+            <column datatype='integer' name='OR-139999' ordinal='39' />
+            <column datatype='integer' name='OR-101003' ordinal='40' />
+            <column datatype='integer' name='OSA-180099' ordinal='41' />
+            <column datatype='integer' name='OR-130099' ordinal='42' />
+            <column datatype='integer' name='OSA-180001' ordinal='43' />
+            <column datatype='integer' name='OR-130121' ordinal='44' />
+            <column datatype='integer' name='OR-130131' ordinal='45' />
+            <column datatype='integer' name='OSA-140999' ordinal='46' />
+            <column datatype='integer' name='OR-101002' ordinal='47' />
+            <column datatype='integer' name='OR-130111' ordinal='48' />
+            <column datatype='integer' name='OR-180002' ordinal='49' />
+            <column datatype='integer' name='OSA-145999' ordinal='50' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1t0x9mm0hvcj6f132mqy415l9gvd' name='final_train_od_dummies.csv' table='[final_train_od_dummies#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='it_IT'>
-            <column datatype='integer' name='Unnamed: 0' ordinal='0' />
-            <column datatype='string' name='Case identifier' ordinal='1' />
-            <column datatype='date' name='Date' ordinal='2' />
-            <column datatype='string' name='Judge Identifier' ordinal='3' />
-            <column datatype='string' name='Section' ordinal='4' />
-            <column datatype='string' name='City of the judge’s office' ordinal='5' />
-            <column datatype='integer' name='Tax Related' ordinal='6' />
-            <column datatype='integer' name='Number of Lawyers' ordinal='7' />
-            <column datatype='integer' name='Number of Legal Parties' ordinal='8' />
-            <column datatype='integer' name='Number of Persons' ordinal='9' />
-            <column datatype='string' name='Outcome' ordinal='10' />
-            <column datatype='integer' name='Duration' ordinal='11' />
-            <column datatype='string' name='Value formatted' ordinal='12' />
-            <column datatype='string' name='Unified Contribution formatted' ordinal='13' />
-            <column datatype='integer' name='Milano' ordinal='14' />
-            <column datatype='integer' name='Roma' ordinal='15' />
-            <column datatype='integer' name='Napoli' ordinal='16' />
-            <column datatype='integer' name='Cagliari' ordinal='17' />
-            <column datatype='integer' name='Perugia' ordinal='18' />
-            <column datatype='integer' name='Genova' ordinal='19' />
-            <column datatype='integer' name='Bologna' ordinal='20' />
-            <column datatype='integer' name='Bari' ordinal='21' />
-            <column datatype='integer' name='Palermo' ordinal='22' />
-            <column datatype='integer' name='Torino' ordinal='23' />
-            <column datatype='integer' name='Potenza' ordinal='24' />
-            <column datatype='integer' name='Campobasso' ordinal='25' />
-            <column datatype='integer' name='Firenze' ordinal='26' />
-            <column datatype='integer' name='Cosenza' ordinal='27' />
-            <column datatype='integer' name='Venezia' ordinal='28' />
-            <column datatype='integer' name='Ancona' ordinal='29' />
-            <column datatype='integer' name='L&apos;Aquila' ordinal='30' />
-            <column datatype='integer' name='Trieste' ordinal='31' />
-            <column datatype='integer' name='Aosta' ordinal='32' />
-            <column datatype='integer' name='Trento' ordinal='33' />
-            <column datatype='integer' name='OSA-180002' ordinal='34' />
-            <column datatype='integer' name='OR-145999' ordinal='35' />
-            <column datatype='integer' name='OR-145009' ordinal='36' />
-            <column datatype='integer' name='OR-140999' ordinal='37' />
-            <column datatype='integer' name='OR-139999' ordinal='38' />
-            <column datatype='integer' name='OR-101003' ordinal='39' />
-            <column datatype='integer' name='OSA-180099' ordinal='40' />
-            <column datatype='integer' name='OR-130099' ordinal='41' />
-            <column datatype='integer' name='OSA-180001' ordinal='42' />
-            <column datatype='integer' name='OR-130121' ordinal='43' />
-            <column datatype='integer' name='OR-130131' ordinal='44' />
-            <column datatype='integer' name='OSA-140999' ordinal='45' />
-            <column datatype='integer' name='OR-101002' ordinal='46' />
-            <column datatype='integer' name='OR-130111' ordinal='47' />
-            <column datatype='integer' name='OR-180002' ordinal='48' />
-            <column datatype='integer' name='OSA-145999' ordinal='49' />
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+            <column datatype='string' name='Case identifier' ordinal='2' />
+            <column datatype='date' name='Date' ordinal='3' />
+            <column datatype='string' name='Judge Identifier' ordinal='4' />
+            <column datatype='string' name='Section' ordinal='5' />
+            <column datatype='string' name='City of the judge’s office' ordinal='6' />
+            <column datatype='integer' name='Tax Related' ordinal='7' />
+            <column datatype='integer' name='Number of Lawyers' ordinal='8' />
+            <column datatype='integer' name='Number of Legal Parties' ordinal='9' />
+            <column datatype='integer' name='Number of Persons' ordinal='10' />
+            <column datatype='string' name='Outcome' ordinal='11' />
+            <column datatype='integer' name='Duration' ordinal='12' />
+            <column datatype='string' name='Value formatted' ordinal='13' />
+            <column datatype='string' name='Unified Contribution formatted' ordinal='14' />
+            <column datatype='integer' name='Milano' ordinal='15' />
+            <column datatype='integer' name='Roma' ordinal='16' />
+            <column datatype='integer' name='Napoli' ordinal='17' />
+            <column datatype='integer' name='Cagliari' ordinal='18' />
+            <column datatype='integer' name='Perugia' ordinal='19' />
+            <column datatype='integer' name='Genova' ordinal='20' />
+            <column datatype='integer' name='Bologna' ordinal='21' />
+            <column datatype='integer' name='Bari' ordinal='22' />
+            <column datatype='integer' name='Palermo' ordinal='23' />
+            <column datatype='integer' name='Torino' ordinal='24' />
+            <column datatype='integer' name='Potenza' ordinal='25' />
+            <column datatype='integer' name='Campobasso' ordinal='26' />
+            <column datatype='integer' name='Firenze' ordinal='27' />
+            <column datatype='integer' name='Cosenza' ordinal='28' />
+            <column datatype='integer' name='Venezia' ordinal='29' />
+            <column datatype='integer' name='Ancona' ordinal='30' />
+            <column datatype='integer' name='L&apos;Aquila' ordinal='31' />
+            <column datatype='integer' name='Trieste' ordinal='32' />
+            <column datatype='integer' name='Aosta' ordinal='33' />
+            <column datatype='integer' name='Trento' ordinal='34' />
+            <column datatype='integer' name='OSA-180002' ordinal='35' />
+            <column datatype='integer' name='OR-145999' ordinal='36' />
+            <column datatype='integer' name='OR-145009' ordinal='37' />
+            <column datatype='integer' name='OR-140999' ordinal='38' />
+            <column datatype='integer' name='OR-139999' ordinal='39' />
+            <column datatype='integer' name='OR-101003' ordinal='40' />
+            <column datatype='integer' name='OSA-180099' ordinal='41' />
+            <column datatype='integer' name='OR-130099' ordinal='42' />
+            <column datatype='integer' name='OSA-180001' ordinal='43' />
+            <column datatype='integer' name='OR-130121' ordinal='44' />
+            <column datatype='integer' name='OR-130131' ordinal='45' />
+            <column datatype='integer' name='OSA-140999' ordinal='46' />
+            <column datatype='integer' name='OR-101002' ordinal='47' />
+            <column datatype='integer' name='OR-130111' ordinal='48' />
+            <column datatype='integer' name='OR-180002' ordinal='49' />
+            <column datatype='integer' name='OSA-145999' ordinal='50' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <metadata-records>
@@ -175,12 +177,24 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[final_train_od_dummies.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_train_od_dummies.csv_C6F9D86389864C44B1B54099E093B5B7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
             <remote-name>Unnamed: 0</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Unnamed: 0]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Unnamed: 0</remote-alias>
-            <ordinal>0</ordinal>
+            <ordinal>1</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -192,7 +206,7 @@
             <local-name>[Case identifier]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Case identifier</remote-alias>
-            <ordinal>1</ordinal>
+            <ordinal>2</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -207,7 +221,7 @@
             <local-name>[Date]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Date</remote-alias>
-            <ordinal>2</ordinal>
+            <ordinal>3</ordinal>
             <local-type>date</local-type>
             <aggregation>Year</aggregation>
             <contains-null>true</contains-null>
@@ -219,7 +233,7 @@
             <local-name>[Judge Identifier]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Judge Identifier</remote-alias>
-            <ordinal>3</ordinal>
+            <ordinal>4</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -234,7 +248,7 @@
             <local-name>[Section]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Section</remote-alias>
-            <ordinal>4</ordinal>
+            <ordinal>5</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -249,7 +263,7 @@
             <local-name>[City of the judge’s office]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>City of the judge’s office</remote-alias>
-            <ordinal>5</ordinal>
+            <ordinal>6</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -264,7 +278,7 @@
             <local-name>[Tax Related]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Tax Related</remote-alias>
-            <ordinal>6</ordinal>
+            <ordinal>7</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -276,7 +290,7 @@
             <local-name>[Number of Lawyers]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Number of Lawyers</remote-alias>
-            <ordinal>7</ordinal>
+            <ordinal>8</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -288,7 +302,7 @@
             <local-name>[Number of Legal Parties]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Number of Legal Parties</remote-alias>
-            <ordinal>8</ordinal>
+            <ordinal>9</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -300,7 +314,7 @@
             <local-name>[Number of Persons]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Number of Persons</remote-alias>
-            <ordinal>9</ordinal>
+            <ordinal>10</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -312,7 +326,7 @@
             <local-name>[Outcome]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Outcome</remote-alias>
-            <ordinal>10</ordinal>
+            <ordinal>11</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -327,7 +341,7 @@
             <local-name>[Duration]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Duration</remote-alias>
-            <ordinal>11</ordinal>
+            <ordinal>12</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -339,7 +353,7 @@
             <local-name>[Value formatted]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Value formatted</remote-alias>
-            <ordinal>12</ordinal>
+            <ordinal>13</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -354,7 +368,7 @@
             <local-name>[Unified Contribution formatted]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Unified Contribution formatted</remote-alias>
-            <ordinal>13</ordinal>
+            <ordinal>14</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
@@ -369,7 +383,7 @@
             <local-name>[Milano]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Milano</remote-alias>
-            <ordinal>14</ordinal>
+            <ordinal>15</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -381,7 +395,7 @@
             <local-name>[Roma]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Roma</remote-alias>
-            <ordinal>15</ordinal>
+            <ordinal>16</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -393,7 +407,7 @@
             <local-name>[Napoli]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Napoli</remote-alias>
-            <ordinal>16</ordinal>
+            <ordinal>17</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -405,7 +419,7 @@
             <local-name>[Cagliari]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Cagliari</remote-alias>
-            <ordinal>17</ordinal>
+            <ordinal>18</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -417,7 +431,7 @@
             <local-name>[Perugia]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Perugia</remote-alias>
-            <ordinal>18</ordinal>
+            <ordinal>19</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -429,7 +443,7 @@
             <local-name>[Genova]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Genova</remote-alias>
-            <ordinal>19</ordinal>
+            <ordinal>20</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -441,7 +455,7 @@
             <local-name>[Bologna]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Bologna</remote-alias>
-            <ordinal>20</ordinal>
+            <ordinal>21</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -453,7 +467,7 @@
             <local-name>[Bari]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Bari</remote-alias>
-            <ordinal>21</ordinal>
+            <ordinal>22</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -465,7 +479,7 @@
             <local-name>[Palermo]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Palermo</remote-alias>
-            <ordinal>22</ordinal>
+            <ordinal>23</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -477,7 +491,7 @@
             <local-name>[Torino]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Torino</remote-alias>
-            <ordinal>23</ordinal>
+            <ordinal>24</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -489,7 +503,7 @@
             <local-name>[Potenza]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Potenza</remote-alias>
-            <ordinal>24</ordinal>
+            <ordinal>25</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -501,7 +515,7 @@
             <local-name>[Campobasso]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Campobasso</remote-alias>
-            <ordinal>25</ordinal>
+            <ordinal>26</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -513,7 +527,7 @@
             <local-name>[Firenze]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Firenze</remote-alias>
-            <ordinal>26</ordinal>
+            <ordinal>27</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -525,7 +539,7 @@
             <local-name>[Cosenza]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Cosenza</remote-alias>
-            <ordinal>27</ordinal>
+            <ordinal>28</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -537,7 +551,7 @@
             <local-name>[Venezia]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Venezia</remote-alias>
-            <ordinal>28</ordinal>
+            <ordinal>29</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -549,7 +563,7 @@
             <local-name>[Ancona]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Ancona</remote-alias>
-            <ordinal>29</ordinal>
+            <ordinal>30</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -561,7 +575,7 @@
             <local-name>[L&apos;Aquila]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>L&apos;Aquila</remote-alias>
-            <ordinal>30</ordinal>
+            <ordinal>31</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -573,7 +587,7 @@
             <local-name>[Trieste]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Trieste</remote-alias>
-            <ordinal>31</ordinal>
+            <ordinal>32</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -585,7 +599,7 @@
             <local-name>[Aosta]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Aosta</remote-alias>
-            <ordinal>32</ordinal>
+            <ordinal>33</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -597,7 +611,7 @@
             <local-name>[Trento]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>Trento</remote-alias>
-            <ordinal>33</ordinal>
+            <ordinal>34</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -609,7 +623,7 @@
             <local-name>[OSA-180002]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OSA-180002</remote-alias>
-            <ordinal>34</ordinal>
+            <ordinal>35</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -621,7 +635,7 @@
             <local-name>[OR-145999]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OR-145999</remote-alias>
-            <ordinal>35</ordinal>
+            <ordinal>36</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -633,7 +647,7 @@
             <local-name>[OR-145009]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OR-145009</remote-alias>
-            <ordinal>36</ordinal>
+            <ordinal>37</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -645,7 +659,7 @@
             <local-name>[OR-140999]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OR-140999</remote-alias>
-            <ordinal>37</ordinal>
+            <ordinal>38</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -657,7 +671,7 @@
             <local-name>[OR-139999]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OR-139999</remote-alias>
-            <ordinal>38</ordinal>
+            <ordinal>39</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -669,7 +683,7 @@
             <local-name>[OR-101003]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OR-101003</remote-alias>
-            <ordinal>39</ordinal>
+            <ordinal>40</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -681,7 +695,7 @@
             <local-name>[OSA-180099]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OSA-180099</remote-alias>
-            <ordinal>40</ordinal>
+            <ordinal>41</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -693,7 +707,7 @@
             <local-name>[OR-130099]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OR-130099</remote-alias>
-            <ordinal>41</ordinal>
+            <ordinal>42</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -705,7 +719,7 @@
             <local-name>[OSA-180001]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OSA-180001</remote-alias>
-            <ordinal>42</ordinal>
+            <ordinal>43</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -717,7 +731,7 @@
             <local-name>[OR-130121]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OR-130121</remote-alias>
-            <ordinal>43</ordinal>
+            <ordinal>44</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -729,7 +743,7 @@
             <local-name>[OR-130131]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OR-130131</remote-alias>
-            <ordinal>44</ordinal>
+            <ordinal>45</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -741,7 +755,7 @@
             <local-name>[OSA-140999]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OSA-140999</remote-alias>
-            <ordinal>45</ordinal>
+            <ordinal>46</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -753,7 +767,7 @@
             <local-name>[OR-101002]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OR-101002</remote-alias>
-            <ordinal>46</ordinal>
+            <ordinal>47</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -765,7 +779,7 @@
             <local-name>[OR-130111]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OR-130111</remote-alias>
-            <ordinal>47</ordinal>
+            <ordinal>48</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -777,7 +791,7 @@
             <local-name>[OR-180002]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OR-180002</remote-alias>
-            <ordinal>48</ordinal>
+            <ordinal>49</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -789,7 +803,7 @@
             <local-name>[OSA-145999]</local-name>
             <parent-name>[final_train_od_dummies.csv]</parent-name>
             <remote-alias>OSA-145999</remote-alias>
-            <ordinal>49</ordinal>
+            <ordinal>50</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
@@ -799,6 +813,7 @@
       </connection>
       <aliases enabled='yes' />
       <column datatype='string' name='[City of the judge’s office]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[Number of Lawyers]' role='dimension' type='ordinal' />
       <column caption='Or-101002' datatype='integer' name='[OR-101002]' role='measure' type='quantitative' />
       <column caption='Or-101003' datatype='integer' name='[OR-101003]' role='measure' type='quantitative' />
       <column caption='Or-130099' datatype='integer' name='[OR-130099]' role='measure' type='quantitative' />
@@ -827,56 +842,57 @@
             <properties context=''>
               <relation connection='textscan.1t0x9mm0hvcj6f132mqy415l9gvd' name='final_train_od_dummies.csv' table='[final_train_od_dummies#csv]' type='table'>
                 <columns character-set='UTF-8' header='yes' locale='it_IT'>
-                  <column datatype='integer' name='Unnamed: 0' ordinal='0' />
-                  <column datatype='string' name='Case identifier' ordinal='1' />
-                  <column datatype='date' name='Date' ordinal='2' />
-                  <column datatype='string' name='Judge Identifier' ordinal='3' />
-                  <column datatype='string' name='Section' ordinal='4' />
-                  <column datatype='string' name='City of the judge’s office' ordinal='5' />
-                  <column datatype='integer' name='Tax Related' ordinal='6' />
-                  <column datatype='integer' name='Number of Lawyers' ordinal='7' />
-                  <column datatype='integer' name='Number of Legal Parties' ordinal='8' />
-                  <column datatype='integer' name='Number of Persons' ordinal='9' />
-                  <column datatype='string' name='Outcome' ordinal='10' />
-                  <column datatype='integer' name='Duration' ordinal='11' />
-                  <column datatype='string' name='Value formatted' ordinal='12' />
-                  <column datatype='string' name='Unified Contribution formatted' ordinal='13' />
-                  <column datatype='integer' name='Milano' ordinal='14' />
-                  <column datatype='integer' name='Roma' ordinal='15' />
-                  <column datatype='integer' name='Napoli' ordinal='16' />
-                  <column datatype='integer' name='Cagliari' ordinal='17' />
-                  <column datatype='integer' name='Perugia' ordinal='18' />
-                  <column datatype='integer' name='Genova' ordinal='19' />
-                  <column datatype='integer' name='Bologna' ordinal='20' />
-                  <column datatype='integer' name='Bari' ordinal='21' />
-                  <column datatype='integer' name='Palermo' ordinal='22' />
-                  <column datatype='integer' name='Torino' ordinal='23' />
-                  <column datatype='integer' name='Potenza' ordinal='24' />
-                  <column datatype='integer' name='Campobasso' ordinal='25' />
-                  <column datatype='integer' name='Firenze' ordinal='26' />
-                  <column datatype='integer' name='Cosenza' ordinal='27' />
-                  <column datatype='integer' name='Venezia' ordinal='28' />
-                  <column datatype='integer' name='Ancona' ordinal='29' />
-                  <column datatype='integer' name='L&apos;Aquila' ordinal='30' />
-                  <column datatype='integer' name='Trieste' ordinal='31' />
-                  <column datatype='integer' name='Aosta' ordinal='32' />
-                  <column datatype='integer' name='Trento' ordinal='33' />
-                  <column datatype='integer' name='OSA-180002' ordinal='34' />
-                  <column datatype='integer' name='OR-145999' ordinal='35' />
-                  <column datatype='integer' name='OR-145009' ordinal='36' />
-                  <column datatype='integer' name='OR-140999' ordinal='37' />
-                  <column datatype='integer' name='OR-139999' ordinal='38' />
-                  <column datatype='integer' name='OR-101003' ordinal='39' />
-                  <column datatype='integer' name='OSA-180099' ordinal='40' />
-                  <column datatype='integer' name='OR-130099' ordinal='41' />
-                  <column datatype='integer' name='OSA-180001' ordinal='42' />
-                  <column datatype='integer' name='OR-130121' ordinal='43' />
-                  <column datatype='integer' name='OR-130131' ordinal='44' />
-                  <column datatype='integer' name='OSA-140999' ordinal='45' />
-                  <column datatype='integer' name='OR-101002' ordinal='46' />
-                  <column datatype='integer' name='OR-130111' ordinal='47' />
-                  <column datatype='integer' name='OR-180002' ordinal='48' />
-                  <column datatype='integer' name='OSA-145999' ordinal='49' />
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+                  <column datatype='string' name='Case identifier' ordinal='2' />
+                  <column datatype='date' name='Date' ordinal='3' />
+                  <column datatype='string' name='Judge Identifier' ordinal='4' />
+                  <column datatype='string' name='Section' ordinal='5' />
+                  <column datatype='string' name='City of the judge’s office' ordinal='6' />
+                  <column datatype='integer' name='Tax Related' ordinal='7' />
+                  <column datatype='integer' name='Number of Lawyers' ordinal='8' />
+                  <column datatype='integer' name='Number of Legal Parties' ordinal='9' />
+                  <column datatype='integer' name='Number of Persons' ordinal='10' />
+                  <column datatype='string' name='Outcome' ordinal='11' />
+                  <column datatype='integer' name='Duration' ordinal='12' />
+                  <column datatype='string' name='Value formatted' ordinal='13' />
+                  <column datatype='string' name='Unified Contribution formatted' ordinal='14' />
+                  <column datatype='integer' name='Milano' ordinal='15' />
+                  <column datatype='integer' name='Roma' ordinal='16' />
+                  <column datatype='integer' name='Napoli' ordinal='17' />
+                  <column datatype='integer' name='Cagliari' ordinal='18' />
+                  <column datatype='integer' name='Perugia' ordinal='19' />
+                  <column datatype='integer' name='Genova' ordinal='20' />
+                  <column datatype='integer' name='Bologna' ordinal='21' />
+                  <column datatype='integer' name='Bari' ordinal='22' />
+                  <column datatype='integer' name='Palermo' ordinal='23' />
+                  <column datatype='integer' name='Torino' ordinal='24' />
+                  <column datatype='integer' name='Potenza' ordinal='25' />
+                  <column datatype='integer' name='Campobasso' ordinal='26' />
+                  <column datatype='integer' name='Firenze' ordinal='27' />
+                  <column datatype='integer' name='Cosenza' ordinal='28' />
+                  <column datatype='integer' name='Venezia' ordinal='29' />
+                  <column datatype='integer' name='Ancona' ordinal='30' />
+                  <column datatype='integer' name='L&apos;Aquila' ordinal='31' />
+                  <column datatype='integer' name='Trieste' ordinal='32' />
+                  <column datatype='integer' name='Aosta' ordinal='33' />
+                  <column datatype='integer' name='Trento' ordinal='34' />
+                  <column datatype='integer' name='OSA-180002' ordinal='35' />
+                  <column datatype='integer' name='OR-145999' ordinal='36' />
+                  <column datatype='integer' name='OR-145009' ordinal='37' />
+                  <column datatype='integer' name='OR-140999' ordinal='38' />
+                  <column datatype='integer' name='OR-139999' ordinal='39' />
+                  <column datatype='integer' name='OR-101003' ordinal='40' />
+                  <column datatype='integer' name='OSA-180099' ordinal='41' />
+                  <column datatype='integer' name='OR-130099' ordinal='42' />
+                  <column datatype='integer' name='OSA-180001' ordinal='43' />
+                  <column datatype='integer' name='OR-130121' ordinal='44' />
+                  <column datatype='integer' name='OR-130131' ordinal='45' />
+                  <column datatype='integer' name='OSA-140999' ordinal='46' />
+                  <column datatype='integer' name='OR-101002' ordinal='47' />
+                  <column datatype='integer' name='OR-130111' ordinal='48' />
+                  <column datatype='integer' name='OR-180002' ordinal='49' />
+                  <column datatype='integer' name='OSA-145999' ordinal='50' />
                 </columns>
               </relation>
             </properties>
@@ -1324,7 +1340,7 @@
       </table>
       <simple-id uuid='{24BB5363-C02A-4379-8255-79E15F2D5013}' />
     </worksheet>
-    <worksheet name='Foglio 4'>
+    <worksheet name='EDA train_od 1'>
       <table>
         <view>
           <datasources>
@@ -1340,7 +1356,7 @@
             <column datatype='integer' name='[L&apos;Aquila]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Milano]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Napoli]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Number of Lawyers]' role='measure' type='quantitative' />
+            <column aggregation='Sum' datatype='integer' name='[Number of Lawyers]' role='dimension' type='ordinal' />
             <column datatype='integer' name='[Number of Legal Parties]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Number of Persons]' role='measure' type='quantitative' />
             <column caption='Or-101002' datatype='integer' name='[OR-101002]' role='measure' type='quantitative' />
@@ -1414,6 +1430,54 @@
         <cols>[federated.1ceq71q1tippjg1eakjw61uxqj2m].[none:Outcome:nk]</cols>
       </table>
       <simple-id uuid='{CFDA44C9-1D02-430E-9E3E-18ED4AA57AC2}' />
+    </worksheet>
+    <worksheet name='EDA train_od 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;</run>
+            <run>Sheet Name</run>
+            <run>&gt;
+The correlation matrix suggests that there is a quite strong positive correlation between number of lawyers and duration.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_train_od_dummies' name='federated.1ceq71q1tippjg1eakjw61uxqj2m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ceq71q1tippjg1eakjw61uxqj2m'>
+            <column datatype='integer' name='[Duration]' role='measure' type='quantitative' />
+            <column aggregation='Sum' datatype='integer' name='[Number of Lawyers]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Unnamed: 0]' role='measure' type='quantitative' />
+            <column-instance column='[Duration]' derivation='Avg' name='[avg:Duration:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Unnamed: 0]' derivation='Count' name='[cnt:Unnamed: 0:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number of Lawyers]' derivation='None' name='[none:Number of Lawyers:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ceq71q1tippjg1eakjw61uxqj2m].[cnt:Unnamed: 0:qk]' num-steps='40' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ceq71q1tippjg1eakjw61uxqj2m].[cnt:Unnamed: 0:qk]' />
+              <tooltip column='[federated.1ceq71q1tippjg1eakjw61uxqj2m].[cnt:Unnamed: 0:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ceq71q1tippjg1eakjw61uxqj2m].[avg:Duration:qk]</rows>
+        <cols>[federated.1ceq71q1tippjg1eakjw61uxqj2m].[none:Number of Lawyers:ok]</cols>
+      </table>
+      <simple-id uuid='{AA5249F2-5C1E-4F24-B07A-DB5B41DB1F31}' />
     </worksheet>
     <worksheet name='MAE_train_s'>
       <layout-options>
@@ -1683,8 +1747,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='47' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='46' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='49' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='48' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone h='11125' id='8' mode='checkdropdown' name='Scatterplot_train_s' param='[federated.0zph6b90lwgfwt123d8ti1rooyx5].[none:train_test:nk]' type-v2='filter' w='16000' x='83200' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1869,7 +1933,7 @@
       </viewpoint>
       <simple-id uuid='{AEC77B56-D451-43F4-89F0-6DDC41697D59}' />
     </window>
-    <window class='worksheet' maximized='true' name='Foglio 4'>
+    <window class='worksheet' name='EDA train_od 1'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1905,6 +1969,41 @@
         </highlight>
       </viewpoint>
       <simple-id uuid='{A49D5723-7115-49B7-8F87-B5F88934D356}' />
+    </window>
+    <window class='worksheet' maximized='true' name='EDA train_od 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ceq71q1tippjg1eakjw61uxqj2m].[cnt:Unnamed: 0:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ceq71q1tippjg1eakjw61uxqj2m].[none:Number of Lawyers:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A810B491-83D5-4918-BACC-551FB6CDDE90}' />
     </window>
   </windows>
   <thumbnails>
@@ -2096,7 +2195,7 @@
       mJSURExMDGq1mmAwSFRUFG63G7PZTFdX1y3nRJrdhzgqKorU1FS8Xi+5ubn8PwJD8JSCG4oK
       AAAAAElFTkSuQmCC
     </thumbnail>
-    <thumbnail height='192' name='Foglio 4' width='192'>
+    <thumbnail height='192' name='EDA train_od 1' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
       AAAPx0lEQVR4nO3c209Ud7/H8fcaZmYNDGdRGATMiFKshy1aivFQn2prWk1bkzbpH9C7pje9
       6F/Q2yZNmjTpVb2qN01Ta1Jroq2KCIjolGLxgIwiMMNhYA7AnGet54LNRLT72d07rFH6+76S
@@ -2174,6 +2273,87 @@
       6ysuef4nsgwnVoOmaVrBP4OaplFSUvLM25Zn0IUoJPlJsFCaBCCUJgEIpUkAQmkSgFCaBCCU
       JgEIpUkAQmkSgFCaBCCUJgEIpUkAQmkSgFCaBCCUJgEIpUkAQmkSgFCaBCCU9m/fnZcVGEUA
       qwAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='EDA train_od 2' width='192'>
+      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
     </thumbnail>
     <thumbnail height='41' name='MAE_train_s' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAAApCAYAAABjlyZNAAAACXBIWXMAAA7DAAAOwwHHb6hk
