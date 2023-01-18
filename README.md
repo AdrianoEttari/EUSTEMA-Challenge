@@ -1,1 +1,0 @@
-# EUSTEMA-Challenge
