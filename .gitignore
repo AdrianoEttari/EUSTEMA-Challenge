@@ -130,6 +130,9 @@ dmypy.json
 
 
 # ADDED BY ME
-*.DS_Store
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
 my_logs/
 *.twbr
