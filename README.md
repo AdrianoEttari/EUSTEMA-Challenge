@@ -6,4 +6,4 @@ In this repository you can find different folders:
 
 * DATA: here there are all the needed data-set for running the notebooks. More precisely, in order to run the preprocessing ones, you just need train\_s.csv and train\_od.csv. To run the models notebooks you need final\_train\_od\_dummies.csv and final\_train\_s\_dummies.csv. Moreover, there is a data\_for\_plotting.csv file that we used to make interesting visualizations in Tableau.
 
-* models: in this folder you will find the weights of the fitted models. 
+* models: in this folder you will find the weights of the fitted models. We provide these to you because the models need several time to train. 
