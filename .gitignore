@@ -136,3 +136,4 @@ dmypy.json
 **/._.DS_Store
 my_logs/
 *.twbr
+.Rhistory
